@@ -52,12 +52,12 @@ public static void main(String[] args) throws InterruptedException {
 	investInStockPage.clickOnMutualFund();
 	Thread.sleep(5000);
 	investInStockPage.scroll();
-//	Thread.sleep(3000);
-//	investInStockPage.clickOnbestReturn();
-//	
-//	investInStockPage.clickOnFirstFund();
-//	Thread.sleep(3000);
-//	investInStockPage.getNameOfFund();
-//	System.out.println(investInStockPage);
+	Thread.sleep(3000);
+	investInStockPage.clickOnbestReturn();
+	
+	investInStockPage.clickOnFirstFund();
+	Thread.sleep(3000);
+	investInStockPage.getNameOfFund();
+	System.out.println(investInStockPage);
 }
 }
