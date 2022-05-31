@@ -45,12 +45,12 @@ public static void main(String[] args) throws InterruptedException {
 //	Thread.sleep(1000);
 //	mobRechargePage.postpaidData();
 	driver.get("https://paytm.com/");
-//	driver.manage().window().maximize();
-//	paytmHomePage.clickOnStockTab();
-//	Thread.sleep(3000);
-//	InvestInStockPage investInStockPage= new InvestInStockPage(driver);
-//	investInStockPage.clickOnMutualFund();
-//	Thread.sleep(5000);
+	driver.manage().window().maximize();
+	paytmHomePage.clickOnStockTab();
+	Thread.sleep(3000);
+	InvestInStockPage investInStockPage= new InvestInStockPage(driver);
+	investInStockPage.clickOnMutualFund();
+	Thread.sleep(5000);
 //	investInStockPage.scroll();
 //	Thread.sleep(3000);
 //	investInStockPage.clickOnbestReturn();
